@@ -1,0 +1,18 @@
+# Digimon Project
+
+## Overview
+This project consist of a **web homepage** built to demonstrate the use of **semantic HTML5** structure and **custom CSS**.  
+It represents a fictional website dedicated to **Digimon**, a TV program originally from Japan, first released in the early 2000s.  
+
+---
+
+## Objectives
+- Apply **semantic HTML5 elements**, such as,`header`, `nav`, `main`, `section`, `article`, `aside`, `footer`) to create a webpage.  
+- Practice accessible and meaningful **markup**, including `aria-label` attributes and `time`.  
+- Design and format the page using **custom CSS**. 
+
+---
+
+## Languages
+- **HTML**: for semantic structure and accessibility.  
+- **CSS**: for custom styling and responsive layout design.
