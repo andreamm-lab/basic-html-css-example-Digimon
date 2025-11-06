@@ -1,3 +1,4 @@
+/* === GLOBAL SETTINGS === */
 * {
   box-sizing: border-box;
 }
@@ -5,26 +6,26 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffffff;
-  color: #0b203b;
+  background-color: #dfe4eb; /* gris claro */
+  color: #0b203b; /* texto azul oscuro */
 }
 
-/* HEADER */
+/* === HEADER === */
 header {
-  background-color: #ffffff;
+  background-color: #c9ccd1; /* gris medio */
   text-align: center;
   padding: 1.4rem 0 1rem;
 }
 
 header h1 {
-  color: #0b1a33;
+  color: #0b1a33; /* azul marino oscuro */
   margin: 0;
 }
 
-/* NAVIGATION */
+/* === NAVIGATION === */
 nav {
   text-align: center;
-  background-color: #2a4a6f;
+  background-color: #2d73c2; /* azul más claro */
   padding: 0.8rem 0;
 }
 
@@ -39,9 +40,10 @@ nav li {
   margin: 0 0.5rem;
 }
 
+/* Digimon-style buttons */
 nav a {
   display: inline-block;
-  background-color: #f2d34f;
+  background-color: #f2d34f;  /* dorado */
   color: #0b203b;
   text-decoration: none;
   font-weight: bold;
@@ -58,11 +60,11 @@ nav a:hover {
   transform: scale(1.05);
 }
 
-/* MAIN CONTAINER */
+/* === MAIN CONTAINER === */
 .main-shell {
   width: 90%;
   margin: 1.5rem auto;
-  background-color: #4b4b4b; /* dark gray surrounding*/
+  background-color: #4b4b4b; /* gris oscuro exterior */
   padding: 1.5rem;
 }
 
@@ -80,37 +82,36 @@ nav a:hover {
   width: 28%;
 }
 
+/* === ARTICLE ONE === */
 #article-one {
-  background-color: #5a5a5a;   /* light gray vs. background */
-  padding: 1rem;               /* border */
-}
-
-/* Text box */
-.featured-box {
-  background-color: #e6e6e6;
-  border: 3px solid #c3b969;   
+  background-color: #e6e6e6; /* gris claro interior */
+  border: 3px solid #c3b969; /* borde dorado */
   padding: 1rem 1.3rem;
 }
 
-.featured-box h2 {
+#article-one h2 {
   text-align: center;
   margin-top: 0;
-  color: #0b1a33;
+  color: #0b1a33; /* azul marino oscuro */
 }
 
-/* Images*/
+#article-one p {
+  line-height: 1.5;
+  color: #0b203b; /* azul oscuro */
+}
+
+/* === IMAGES === */
 .image-row {
   margin-top: 1.2rem;
   text-align: center;
 }
 
-/* Images borders */
 .image-box {
   display: inline-block;
   width: 30%;
-  height: 130px;
+  height: 110px;
   background-color: #e6e6e6;
-  border: 3px solid #c3b969;
+  border: 3px solid #c3b969; /* dorado */
   margin: 0 1%;
   overflow: hidden;
   vertical-align: top;
@@ -122,32 +123,32 @@ nav a:hover {
   object-fit: cover;
 }
 
+/* === PROJECTS BOX === */
 .projects-box {
-  background-color: #5a5a5a; /* marco gris que rodea título + lista */
-  padding: 1rem;
+  background-color: #e6e6e6;  /* gris claro */
+  border: 3px solid #c3b969;  /* dorado */
+  padding: 1rem 1.2rem;
 }
 
 .projects-box h2 {
-  background-color: #e6e6e6;
-  border: 3px solid #c3b969;
   text-align: center;
-  margin: 0 0 0.8rem 0;
-  padding: 0.5rem 0;
-  color: #0b1a33;
+  margin-top: 0;
+  border: 3px solid #c3b969;
+  background-color: #e6e6e6;
+  padding: 0.5rem;
+  color: #0b1a33; /* azul marino oscuro */
 }
 
 .projects-box ul {
-  background-color: #e6e6e6;
-  border: 3px solid #c3b969;
   list-style: disc;
   margin: 0;
   padding: 1rem 1.3rem;
   color: #000;
 }
 
-/* FOOTER */
+/* === FOOTER === */
 footer {
-  background-color: #ebe6e6;
+  background-color: #ffffff;
   text-align: center;
   padding: 0.7rem 0;
   margin-top: 1.5rem;
